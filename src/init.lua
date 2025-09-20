@@ -11,7 +11,7 @@ local Themes = script:WaitForChild("Themes")
 local Utils = script:WaitForChild("Utils")
 
 -- Window module
-local Window = require(Components:WaitForChild("Window"))
+local Window = loadstring(game:HttpGet('https://raw.githubusercontent.com/azxerman500/WoodUI/main/src/window/window.lua'))()
 
 -- Theme handling
 local CurrentTheme = "Default"
